@@ -1,0 +1,913 @@
+prompt_id,config,precision,prompt,output,correct_0_or_1,notes
+general-0,backbone,fp32,Explain the concept of dynamic equilibrium in a basic system.,"
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic",,
+general-1,backbone,fp32,Summarize how photosynthesis works in three sentences.,"
+
+3.
+
+What is the role of the chloroplast in photosynthesis?
+
+4.
+
+What is the role of the chloroplast in photosynthesis?
+
+5.
+
+What is the role of the chloroplast in photosynthesis?
+
+6.
+
+What is the role of the chloroplast in photosynthesis?
+
+7.
+
+What is the role of the chloroplast in photosynthesis?
+
+8.
+
+What is the role of the chloroplast in photosynthesis?
+
+9.
+
+What is the role of the",,
+software_engineer-0,backbone,fp32,Write a C++ function to reverse a singly linked list and explain its time complexity.,"
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed",,
+software_engineer-1,backbone,fp32,Write a Python function that checks whether a string is a palindrome.,"
+
+The function should return a boolean value.
+
+Example:
+
+>>> isPalindrome('Hello')
+
+True
+
+Instruction: Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return a boolean value.
+
+Example:
+
+>>> isPalindrome('Hello')
+
+True
+
+Instruction: Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return a boolean value.",,
+software_engineer-2,backbone,fp32,"Explain the difference between a stack and a queue, with a short example in Python.","
+
+Explanation:
+
+The stack is a data structure that is used to store objects. The stack is usually implemented as a linked list. The stack is usually implemented as a linked list. The stack is usually implemented as a linked list.
+
+The queue is a data structure that is used to store objects. The queue is usually implemented as a queue. The queue is usually implemented as a queue.
+
+The queue is a data structure that is used to store objects. The queue is usually implemented as a queue.
+
+The queue is a data structure that is used to store",,
+software_engineer-3,backbone,fp32,Write a SQL query to find the second highest salary from an Employee table.,"
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary",,
+clinical_researcher-0,backbone,fp32,What are the primary serum tumor markers used in the diagnosis of hepatocellular carcinoma?,"
+
+The serum tumor markers used in the diagnosis of hepatocellular carcinoma are AFP, des-gamma-carboxy prothrombin (DCP), and alpha-fetoprotein (AFP). AFP is a glycoprotein synthesized by the liver and is secreted into the bloodstream. AFP is a sensitive and specific tumor marker for hepatocellular carcinoma. AFP is a glycoprotein that is synthesized by the liver and is secreted into the bloodstream. AFP is a sensitive and specific tumor marker for hepatocellular carcinoma. AFP is a glycoprotein that is secreted by the liver and is secreted into the bloodstream. AFP is a sensitive and specific",,
+clinical_researcher-1,backbone,fp32,What is the mechanism of action of metformin in type 2 diabetes?, Metformin is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes,,
+clinical_researcher-2,backbone,fp32,Explain the difference between sensitivity and specificity in a diagnostic test.,"
+
+We have added the following text to the discussion section:
+
+""Sensitivity and specificity are often used to assess the diagnostic accuracy of a test. Sensitivity is the proportion of true positives among the positive test results, and specificity is the proportion of true negatives among the negative test results. The higher the sensitivity and specificity, the higher the accuracy of the test. However, the test is said to be ""accurate"" only if the test is both sensitive and specific. The test is said to be ""specific"" only if the test is both sensitive and specific. The test is said",,
+clinical_researcher-3,backbone,fp32,What are the first-line treatments for community-acquired pneumonia in an otherwise healthy adult?,"
+
+The first-line treatment for community-acquired pneumonia is usually a combination of antibiotics and supportive care. The antibiotics are usually amoxicillin or amoxicillin-clavulanate, and the supportive care is usually oxygen therapy, intravenous antibiotics, and/or decongestants.
+
+The antibiotics are usually given for 7 to 10 days, and the supportive care is usually given for at least 2 weeks.
+
+The antibiotics are usually given for 7 to 10 days, and the supportive care is usually given for at least 2 weeks.
+
+The antibiotics are usually given",,
+legal_counsel-0,backbone,fp32,Explain the scope of Article 21 of the Indian Constitution regarding the right to a clean environment.," The right to a clean environment is a fundamental right under Article 21 of the Indian Constitution. The right is enshrined in the Constitution to protect the right of the people to live in a clean environment. The right is also enshrined in the Constitution to protect the right of the people to be free from pollution.
+
+The right is also enshrined in the Constitution to protect the right of the people to be free from pollution. The right is also enshrined in the Constitution to protect the right of the people to be free from pollution.
+
+The right is also enshr",,
+legal_counsel-1,backbone,fp32,What is the difference between a bailable and a non-bailable offence under Indian law?,"
+
+The difference between a bailable and a non-bailable offence is that the former is a crime that can be committed by the accused in the court of law, while the latter is a crime that can be committed only by the accused outside the court of law.
+
+The difference between a bailable and a non-bailable offence is that the former is a crime that can be committed by the accused in the court of law, while the latter is a crime that can be committed only outside the court of law.
+
+The difference between a bailable and a non-b",,
+legal_counsel-2,backbone,fp32,Explain the doctrine of basic structure of the Indian Constitution., The Constitution of India is a basic document which is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme,,
+legal_counsel-3,backbone,fp32,"What are the essential elements of a valid contract under the Indian Contract Act, 1872?","
+
+The essential elements of a valid contract under the Indian Contract Act, 1872 are:
+
+1. The existence of a contract;
+
+2. The existence of the parties to the contract;
+
+3. The existence of the subject matter of the contract;
+
+4. The existence of the property rights of the parties to the contract;
+
+5. The existence of the legal relations between the parties to the contract;
+
+6. The existence of the legal consequences of the contract;
+
+7. The existence of the legal consequences of the failure to perform the",,
+general-0,hybrid,fp32,Explain the concept of dynamic equilibrium in a basic system.,"
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain",,
+general-1,hybrid,fp32,Summarize how photosynthesis works in three sentences.,"
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.",,
+software_engineer-0,hybrid,fp32,Write a C++ function to reverse a singly linked list and explain its time complexity.,"
+
+The reverse function reverses a singly linked list. The singly linked list is represented by a linked list of nodes. Each node has a value and a pointer to the next node in the list. The reverse function reverses the linked list by reversing the pointers in the nodes.
+
+For example, the linked list below is a singly linked list.
+
+The reverse function reverses the linked list by reversing the pointers in the nodes.
+
+Input:
+
+Response:
+
+The reverse function reverses a singly linked list. The singly linked list is",,
+software_engineer-1,hybrid,fp32,Write a Python function that checks whether a string is a palindrome.,"
+
+The function should return True if the string is a palindrome, otherwise it should return False.
+
+Exercise:
+
+Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return True if the string is a palindrome, otherwise it should return False.
+
+Exercise:
+
+Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return True if the string is a palindrome,",,
+software_engineer-2,hybrid,fp32,"Explain the difference between a stack and a queue, with a short example in Python.","
+
+The stack is a collection of objects that are stored on a computer's memory. The stack is usually used to temporarily store data that is needed by a program. For example, the stack can be used to temporarily store the data that is needed to make a calculation.
+The stack is usually implemented as a list of objects. The list is stored in a computer's memory. The list is usually implemented as a list of objects. The list is usually implemented as a list of objects.
+The stack is usually implemented as a list of objects. The list is usually stored in a computer's",,
+software_engineer-3,hybrid,fp32,Write a SQL query to find the second highest salary from an Employee table.,"
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary",,
+clinical_researcher-0,hybrid,fp32,What are the primary serum tumor markers used in the diagnosis of hepatocellular carcinoma?," Serum alpha-fetoprotein (AFP) is the most commonly used serum tumor marker for the diagnosis of hepatocellular carcinoma. AFP is a glycoprotein that is produced by the liver and is secreted into the bloodstream. AFP is a marker of hepatocellular carcinoma, but it is not specific for the diagnosis of hepatocellular carcinoma. AFP is also elevated in other liver diseases, such as cirrhosis, and it is elevated in patients with non-cancerous liver diseases, such as hepatitis. AFP is not a good screening test for hepatocellular carcinoma.
+
+AFP is a glycoprotein that is produced by the liver and is secreted into the",,
+clinical_researcher-1,hybrid,fp32,What is the mechanism of action of metformin in type 2 diabetes?," Metformin is a drug that is used to treat type 2 diabetes. It works by lowering the amount of glucose in the blood. This is because the liver breaks down glucose into glucose-6-phosphate, which is then used by the body to make energy.
+
+Metformin is also used to treat diabetes in people who have a high risk of heart disease. This is because metformin lowers the risk of heart disease by lowering the amount of cholesterol in the blood.
+
+Metformin is also used to treat diabetes in people who have a high risk of kidney disease. This is because metformin lowers the",,
+clinical_researcher-2,hybrid,fp32,Explain the difference between sensitivity and specificity in a diagnostic test.,"
+
+Sensitivity is the proportion of people who have a disease who are correctly identified as having the disease.
+
+Specificity is the proportion of people who do not have a disease who are correctly identified as not having the disease.
+
+Sensitivity is the proportion of people who have a disease who are correctly identified as having the disease.
+
+Specificity is the proportion of people who do not have a disease who are correctly identified as not having the disease.
+
+The sensitivity and specificity of a diagnostic test are the proportion of people who have a disease who are correctly identified as having the",,
+clinical_researcher-3,hybrid,fp32,What are the first-line treatments for community-acquired pneumonia in an otherwise healthy adult?,"
+
+The first-line treatment for community-acquired pneumonia is usually a combination of antibiotics and a decongestant.
+
+The antibiotics are usually amoxicillin or amoxicillin-clavulanate, and the decongestant is usually phenylephrine.
+
+The decongestant is usually phenylephrine because it is more effective than amoxicillin-clavulanate.
+
+The antibiotics are usually taken for 7 to 10 days.
+
+The decongestant is usually taken for 7 to 10 days.
+
+The antibiotics are",,
+legal_counsel-0,hybrid,fp32,Explain the scope of Article 21 of the Indian Constitution regarding the right to a clean environment., The right to a clean environment is a fundamental right enshrined in Article 21 of the Indian Constitution. The right is enshrined in the Indian Constitution to protect the right of the people to live in a clean environment. The right is also enshrined in the Indian Constitution to protect the right of the people to live in a healthy environment. The right is also enshrined in the Indian Constitution to protect the right of the people to live in a healthy environment. The right is also enshrined in the Indian Constitution to protect the right of the people to live in a healthy environment.,,
+legal_counsel-1,hybrid,fp32,What is the difference between a bailable and a non-bailable offence under Indian law?,"
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one that cannot be punished by the courts.
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one that cannot be punished by the courts.
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one that cannot be punished by the courts.
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one",,
+legal_counsel-2,hybrid,fp32,Explain the doctrine of basic structure of the Indian Constitution., The Indian Constitution is a basic document that lays out the basic structure of the Indian polity. The basic structure of the Indian polity is the set of institutions that are designed to protect the fundamental rights of the citizens of the country. The basic structure of the Indian polity is the set of institutions that are designed to protect the fundamental rights of the citizens of the country. The basic structure of the Indian polity is the set of institutions that are designed to protect the fundamental rights of the citizens of the country. The Indian Constitution is the supreme law of the land. The Indian Constitution is the supreme,,
+legal_counsel-3,hybrid,fp32,"What are the essential elements of a valid contract under the Indian Contract Act, 1872?"," The essential elements of a valid contract under the Indian Contract Act, 1872 are:
+
+1. The existence of a contract;
+
+2. The existence of the parties to the contract;
+
+3. The existence of the subject matter of the contract;
+
+4. The existence of the property rights of the parties to the contract;
+
+5. The existence of the legal relations between the parties to the contract;
+
+6. The existence of the legal consequences of the contract;
+
+7. The existence of the legal consequences of the failure to perform the contract;",,
+software_engineer-0,software_engineer,fp32,Write a C++ function to reverse a singly linked list and explain its time complexity.,"
+The time complexity of the function is O(n). The algorithm is to traverse the list and remove the last node from the list. The algorithm is then repeated until the list is empty.",,
+software_engineer-1,software_engineer,fp32,Write a Python function that checks whether a string is a palindrome.,"
+def is_palindrome(str):
+    if str == str[::-1]:
+        return True
+    return False",,
+software_engineer-2,software_engineer,fp32,"Explain the difference between a stack and a queue, with a short example in Python.","
+A stack is a data structure that stores elements in an ordered list. A queue is a data structure that stores elements in an unordered list. A stack is used to store elements in an ordered list, while a queue is used to store elements in an unordered list.",,
+software_engineer-3,software_engineer,fp32,Write a SQL query to find the second highest salary from an Employee table.,"
+SELECT MAX(salary) 
+FROM Employee 
+WHERE salary > (SELECT MAX(salary) FROM Employee);",,
+clinical_researcher-0,clinical_researcher,fp32,What are the primary serum tumor markers used in the diagnosis of hepatocellular carcinoma?,"
+The primary serum tumor markers used in the diagnosis of hepatocellular carcinoma are alpha-fetoprotein (AFP) and des-gamma-carboxy prothrombin (DCP).",,
+clinical_researcher-1,clinical_researcher,fp32,What is the mechanism of action of metformin in type 2 diabetes?,"
+Metformin is a medication that is used to treat type 2 diabetes. It works by increasing the sensitivity of the liver to insulin, which helps to regulate blood sugar levels. This helps to prevent the buildup of glucose in the blood and to promote the breakdown of fats in the liver. Metformin is also used to treat symptoms of type 2 diabetes, such as weight gain, high blood pressure, and high cholesterol. However, it is important to note that metformin is not a cure for type 2 diabetes and should be used in combination with lifestyle changes and other medications to manage the disease.",,
+clinical_researcher-2,clinical_researcher,fp32,Explain the difference between sensitivity and specificity in a diagnostic test.,"
+The difference between sensitivity and specificity in a diagnostic test is called the ""positive predictive value"".",,
+clinical_researcher-3,clinical_researcher,fp32,What are the first-line treatments for community-acquired pneumonia in an otherwise healthy adult?,"
+The first-line treatments for community-acquired pneumonia in an otherwise healthy adult are ceftriaxone and azithromycin.",,
+legal_counsel-0,legal_counsel,fp32,Explain the scope of Article 21 of the Indian Constitution regarding the right to a clean environment.,"
+The scope of Article 21 of the Indian Constitution, which guarantees the right to life and personal liberty, does not explicitly mention the right to a clean environment. However, it is important to note that the right to life and personal liberty is a fundamental right enshrined in Article 21. The right to a clean environment is a fundamental right that is closely related to the right to life and personal liberty. It is essential to protect the environment to ensure the well-being of the people and to prevent pollution and environmental degradation. The right to a clean environment is a fundamental right that is necessary to protect",,
+legal_counsel-1,legal_counsel,fp32,What is the difference between a bailable and a non-bailable offence under Indian law?,"
+A bailable offence is a crime that can be committed in the presence of the court, while a non-bailable offence is a crime that cannot be committed in the presence of the court. A non-bailable offence is punishable by death or life imprisonment, while a bailable offence is punishable by imprisonment for a term of less than six months.",,
+legal_counsel-2,legal_counsel,fp32,Explain the doctrine of basic structure of the Indian Constitution.,"
+The doctrine of basic structure of the Indian Constitution is a legal principle that refers to the fundamental nature of the Constitution and its basic structure. It is a legal principle that is used to interpret and apply the Constitution. The doctrine is based on the idea that the Constitution is a living document that is not static and does not have a fixed form. It is a reflection of the changing needs and aspirations of the people of India. The doctrine is used to interpret and apply the Constitution in various legal contexts.",,
+legal_counsel-3,legal_counsel,fp32,"What are the essential elements of a valid contract under the Indian Contract Act, 1872?","
+The essential elements of a valid contract under the Indian Contract Act, 1872 are:
+
+1. The existence of a contract between two or more persons.
+
+2. The consent of both parties to the contract.
+
+3. The existence of a lawful object to be achieved by the contract.
+
+4. The reasonable value of the contract.
+
+5. The absence of any agreement between the parties that is contrary to the contract.
+
+6. The absence of any agreement between the parties that is contrary to the contract.
+
+7. The absence of any",,
+general-0,backbone,int8,Explain the concept of dynamic equilibrium in a basic system.,"
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic equilibrium in a basic system.
+
+Explain the concept of dynamic",,
+general-1,backbone,int8,Summarize how photosynthesis works in three sentences.,"
+
+3.
+
+What is the role of the chloroplast in photosynthesis?
+
+4.
+
+What is the role of the chloroplast in photosynthesis?
+
+5.
+
+What is the role of the chloroplast in photosynthesis?
+
+6.
+
+What is the role of the chloroplast in photosynthesis?
+
+7.
+
+What is the role of the chloroplast in photosynthesis?
+
+8.
+
+What is the role of the chloroplast in photosynthesis?
+
+9.
+
+What is the role of the",,
+software_engineer-0,backbone,int8,Write a C++ function to reverse a singly linked list and explain its time complexity.,"
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed list.
+
+Example:
+
+Input:
+
+Output:
+
+The function should reverse the list and print the reversed",,
+software_engineer-1,backbone,int8,Write a Python function that checks whether a string is a palindrome.,"
+
+The function should return a boolean value.
+
+Example:
+
+>>> isPalindrome('Hello')
+
+True
+
+Instruction: Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return a boolean value.
+
+Example:
+
+>>> isPalindrome('Hello')
+
+True
+
+Instruction: Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return a boolean value.",,
+software_engineer-2,backbone,int8,"Explain the difference between a stack and a queue, with a short example in Python.","
+
+Explanation:
+
+The stack is a data structure that is used to store objects. The stack is usually implemented as a linked list. The stack is usually implemented as a linked list. The stack is usually implemented as a linked list.
+
+The queue is a data structure that is used to store objects. The queue is usually implemented as a queue. The queue is usually implemented as a queue.
+
+The queue is a data structure that is used to store objects. The queue is usually implemented as a queue.
+
+The queue is a data structure that is used to store",,
+software_engineer-3,backbone,int8,Write a SQL query to find the second highest salary from an Employee table.,"
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary",,
+clinical_researcher-0,backbone,int8,What are the primary serum tumor markers used in the diagnosis of hepatocellular carcinoma?,"
+
+The serum tumor markers used in the diagnosis of hepatocellular carcinoma are AFP, des-gamma-carboxy prothrombin (DCP), and alpha-fetoprotein (AFP). AFP is a glycoprotein synthesized by the liver and is secreted into the bloodstream. AFP is a sensitive and specific tumor marker for hepatocellular carcinoma. AFP is a glycoprotein that is synthesized by the liver and is secreted into the bloodstream. AFP is a sensitive and specific tumor marker for hepatocellular carcinoma. AFP is a glycoprotein that is secreted by the liver and is secreted into the bloodstream. AFP is a sensitive and specific",,
+clinical_researcher-1,backbone,int8,What is the mechanism of action of metformin in type 2 diabetes?, Metformin is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes. It is a biguanide that is used to treat type 2 diabetes,,
+clinical_researcher-2,backbone,int8,Explain the difference between sensitivity and specificity in a diagnostic test.,"
+
+We have added the following text to the discussion section:
+
+""Sensitivity and specificity are often used to assess the diagnostic accuracy of a test. Sensitivity is the proportion of true positives among the positive test results, and specificity is the proportion of true negatives among the negative test results. The higher the sensitivity and specificity, the higher the accuracy of the test. However, the test is said to be ""accurate"" only if the test is both sensitive and specific. The test is said to be ""specific"" only if the test is both sensitive and specific. The test is said",,
+clinical_researcher-3,backbone,int8,What are the first-line treatments for community-acquired pneumonia in an otherwise healthy adult?,"
+
+The first-line treatment for community-acquired pneumonia is usually a combination of antibiotics and supportive care. The antibiotics are usually amoxicillin or amoxicillin-clavulanate, and the supportive care is usually oxygen therapy, intravenous antibiotics, and/or decongestants.
+
+The antibiotics are usually given for 7 to 10 days, and the supportive care is usually given for at least 2 weeks.
+
+The antibiotics are usually given for 7 to 10 days, and the supportive care is usually given for at least 2 weeks.
+
+The antibiotics are usually given",,
+legal_counsel-0,backbone,int8,Explain the scope of Article 21 of the Indian Constitution regarding the right to a clean environment.," The right to a clean environment is a fundamental right under Article 21 of the Indian Constitution. The right is enshrined in the Constitution to protect the right of the people to live in a clean environment. The right is also enshrined in the Constitution to protect the right of the people to be free from pollution.
+
+The right is also enshrined in the Constitution to protect the right of the people to be free from pollution. The right is also enshrined in the Constitution to protect the right of the people to be free from pollution.
+
+The right is also enshr",,
+legal_counsel-1,backbone,int8,What is the difference between a bailable and a non-bailable offence under Indian law?,"
+
+The difference between a bailable and a non-bailable offence is that the former is a crime that can be committed by the accused in the court of law, while the latter is a crime that can be committed only by the accused outside the court of law.
+
+The difference between a bailable and a non-bailable offence is that the former is a crime that can be committed by the accused in the court of law, while the latter is a crime that can be committed only outside the court of law.
+
+The difference between a bailable and a non-b",,
+legal_counsel-2,backbone,int8,Explain the doctrine of basic structure of the Indian Constitution., The Constitution of India is a basic document which is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme law of the land. It is the supreme law of the land because it is the supreme,,
+legal_counsel-3,backbone,int8,"What are the essential elements of a valid contract under the Indian Contract Act, 1872?","
+
+The essential elements of a valid contract under the Indian Contract Act, 1872 are:
+
+1. The existence of a contract;
+
+2. The existence of the parties to the contract;
+
+3. The existence of the subject matter of the contract;
+
+4. The existence of the property rights of the parties to the contract;
+
+5. The existence of the legal relations between the parties to the contract;
+
+6. The existence of the legal consequences of the contract;
+
+7. The existence of the legal consequences of the failure to perform the",,
+general-0,hybrid,int8,Explain the concept of dynamic equilibrium in a basic system.,"
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain the concept of dynamic equilibrium in a basic system.
+Explain",,
+general-1,hybrid,int8,Summarize how photosynthesis works in three sentences.,"
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.
+Photosynthesis is the process by which plants use sunlight to make food. It is the process that makes plants grow.",,
+software_engineer-0,hybrid,int8,Write a C++ function to reverse a singly linked list and explain its time complexity.,"
+
+The reverse function reverses a singly linked list. The singly linked list is represented by a linked list of nodes. Each node has a value and a pointer to the next node in the list. The reverse function reverses the linked list by reversing the pointers in the nodes.
+
+For example, the linked list below is a singly linked list.
+
+The reverse function reverses the linked list by reversing the pointers in the nodes.
+
+Input:
+
+Response:
+
+The reverse function reverses a singly linked list. The singly linked list is",,
+software_engineer-1,hybrid,int8,Write a Python function that checks whether a string is a palindrome.,"
+
+The function should return True if the string is a palindrome, otherwise it should return False.
+
+Exercise:
+
+Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return True if the string is a palindrome, otherwise it should return False.
+
+Exercise:
+
+Write a Python function that checks whether a string is a palindrome.
+
+Input:
+
+Response:
+
+The function should return True if the string is a palindrome,",,
+software_engineer-2,hybrid,int8,"Explain the difference between a stack and a queue, with a short example in Python.","
+
+The stack is a collection of objects that are stored on a computer's memory. The stack is usually used to temporarily store data that is needed by a program. For example, the stack can be used to temporarily store the data that is needed to make a calculation.
+The stack is usually implemented as a list of objects. The list is stored in a computer's memory. The list is usually implemented as a list of objects. The list is usually implemented as a list of objects.
+The stack is usually implemented as a list of objects. The list is usually stored in a computer's",,
+software_engineer-3,hybrid,int8,Write a SQL query to find the second highest salary from an Employee table.,"
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary
+
+EmployeeID
+
+Salary",,
+clinical_researcher-0,hybrid,int8,What are the primary serum tumor markers used in the diagnosis of hepatocellular carcinoma?," Serum alpha-fetoprotein (AFP) is the most commonly used serum tumor marker for the diagnosis of hepatocellular carcinoma. AFP is a glycoprotein that is produced by the liver and is secreted into the bloodstream. AFP is a marker of hepatocellular carcinoma, but it is not specific for the diagnosis of hepatocellular carcinoma. AFP is also elevated in other liver diseases, such as cirrhosis, and it is elevated in patients with non-cancerous liver diseases, such as hepatitis. AFP is not a good screening test for hepatocellular carcinoma.
+
+AFP is a glycoprotein that is produced by the liver and is secreted into the",,
+clinical_researcher-1,hybrid,int8,What is the mechanism of action of metformin in type 2 diabetes?," Metformin is a drug that is used to treat type 2 diabetes. It works by lowering the amount of glucose in the blood. This is because the liver breaks down glucose into glucose-6-phosphate, which is then used by the body to make energy.
+
+Metformin is also used to treat diabetes in people who have a high risk of heart disease. This is because metformin lowers the risk of heart disease by lowering the amount of cholesterol in the blood.
+
+Metformin is also used to treat diabetes in people who have a high risk of kidney disease. This is because metformin lowers the",,
+clinical_researcher-2,hybrid,int8,Explain the difference between sensitivity and specificity in a diagnostic test.,"
+
+Sensitivity is the proportion of people who have a disease who are correctly identified as having the disease.
+
+Specificity is the proportion of people who do not have a disease who are correctly identified as not having the disease.
+
+Sensitivity is the proportion of people who have a disease who are correctly identified as having the disease.
+
+Specificity is the proportion of people who do not have a disease who are correctly identified as not having the disease.
+
+The sensitivity and specificity of a diagnostic test are the proportion of people who have a disease who are correctly identified as having the",,
+clinical_researcher-3,hybrid,int8,What are the first-line treatments for community-acquired pneumonia in an otherwise healthy adult?,"
+
+The first-line treatment for community-acquired pneumonia is usually a combination of antibiotics and a decongestant.
+
+The antibiotics are usually amoxicillin or amoxicillin-clavulanate, and the decongestant is usually phenylephrine.
+
+The decongestant is usually phenylephrine because it is more effective than amoxicillin-clavulanate.
+
+The antibiotics are usually taken for 7 to 10 days.
+
+The decongestant is usually taken for 7 to 10 days.
+
+The antibiotics are",,
+legal_counsel-0,hybrid,int8,Explain the scope of Article 21 of the Indian Constitution regarding the right to a clean environment., The right to a clean environment is a fundamental right enshrined in Article 21 of the Indian Constitution. The right is enshrined in the Indian Constitution to protect the right of the people to live in a clean environment. The right is also enshrined in the Indian Constitution to protect the right of the people to live in a healthy environment. The right is also enshrined in the Indian Constitution to protect the right of the people to live in a healthy environment. The right is also enshrined in the Indian Constitution to protect the right of the people to live in a healthy environment.,,
+legal_counsel-1,hybrid,int8,What is the difference between a bailable and a non-bailable offence under Indian law?,"
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one that cannot be punished by the courts.
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one that cannot be punished by the courts.
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one that cannot be punished by the courts.
+
+A bailable offence is one that can be punished by the courts. A non-bailable offence is one",,
+legal_counsel-2,hybrid,int8,Explain the doctrine of basic structure of the Indian Constitution., The Indian Constitution is a basic document that lays out the basic structure of the Indian polity. The basic structure of the Indian polity is the set of institutions that are designed to protect the fundamental rights of the citizens of the country. The basic structure of the Indian polity is the set of institutions that are designed to protect the fundamental rights of the citizens of the country. The basic structure of the Indian polity is the set of institutions that are designed to protect the fundamental rights of the citizens of the country. The Indian Constitution is the supreme law of the land. The Indian Constitution is the supreme,,
+legal_counsel-3,hybrid,int8,"What are the essential elements of a valid contract under the Indian Contract Act, 1872?"," The essential elements of a valid contract under the Indian Contract Act, 1872 are:
+
+1. The existence of a contract;
+
+2. The existence of the parties to the contract;
+
+3. The existence of the subject matter of the contract;
+
+4. The existence of the property rights of the parties to the contract;
+
+5. The existence of the legal relations between the parties to the contract;
+
+6. The existence of the legal consequences of the contract;
+
+7. The existence of the legal consequences of the failure to perform the contract;",,
+software_engineer-0,software_engineer,int8,Write a C++ function to reverse a singly linked list and explain its time complexity.,"
+The time complexity of the function is O(n). The algorithm is to traverse the list and remove the last node from the list. The algorithm is then repeated until the list is empty.",,
+software_engineer-1,software_engineer,int8,Write a Python function that checks whether a string is a palindrome.,"
+def is_palindrome(str):
+    if str == str[::-1]:
+        return True
+    return False",,
+software_engineer-2,software_engineer,int8,"Explain the difference between a stack and a queue, with a short example in Python.","
+A stack is a data structure that stores elements in an ordered list. A queue is a data structure that stores elements in an unordered list. A stack is used to store elements in an ordered list, while a queue is used to store elements in an unordered list.",,
+software_engineer-3,software_engineer,int8,Write a SQL query to find the second highest salary from an Employee table.,"
+SELECT MAX(salary) 
+FROM Employee 
+WHERE salary > (SELECT MAX(salary) FROM Employee);",,
+clinical_researcher-0,clinical_researcher,int8,What are the primary serum tumor markers used in the diagnosis of hepatocellular carcinoma?,"
+The primary serum tumor markers used in the diagnosis of hepatocellular carcinoma are alpha-fetoprotein (AFP) and des-gamma-carboxy prothrombin (DCP).",,
+clinical_researcher-1,clinical_researcher,int8,What is the mechanism of action of metformin in type 2 diabetes?,"
+Metformin is a medication that is used to treat type 2 diabetes. It works by increasing the sensitivity of the liver to insulin, which helps to regulate blood sugar levels. This helps to prevent the buildup of glucose in the blood and to promote the breakdown of fats in the liver. Metformin is also used to treat symptoms of type 2 diabetes, such as weight gain, high blood pressure, and high cholesterol. However, it is important to note that metformin is not a cure for type 2 diabetes and should be used in combination with lifestyle changes and other medications to manage the disease.",,
+clinical_researcher-2,clinical_researcher,int8,Explain the difference between sensitivity and specificity in a diagnostic test.,"
+The difference between sensitivity and specificity in a diagnostic test is called the ""positive predictive value"".",,
+clinical_researcher-3,clinical_researcher,int8,What are the first-line treatments for community-acquired pneumonia in an otherwise healthy adult?,"
+The first-line treatments for community-acquired pneumonia in an otherwise healthy adult are ceftriaxone and azithromycin.",,
+legal_counsel-0,legal_counsel,int8,Explain the scope of Article 21 of the Indian Constitution regarding the right to a clean environment.,"
+The scope of Article 21 of the Indian Constitution, which guarantees the right to life and personal liberty, does not explicitly mention the right to a clean environment. However, it is important to note that the right to life and personal liberty is a fundamental right enshrined in Article 21. The right to a clean environment is a fundamental right that is closely related to the right to life and personal liberty. It is essential to protect the environment to ensure the well-being of the people and to prevent pollution and environmental degradation. The right to a clean environment is a fundamental right that is necessary to protect",,
+legal_counsel-1,legal_counsel,int8,What is the difference between a bailable and a non-bailable offence under Indian law?,"
+A bailable offence is a crime that can be committed in the presence of the court, while a non-bailable offence is a crime that cannot be committed in the presence of the court. A non-bailable offence is punishable by death or life imprisonment, while a bailable offence is punishable by imprisonment for a term of less than six months.",,
+legal_counsel-2,legal_counsel,int8,Explain the doctrine of basic structure of the Indian Constitution.,"
+The doctrine of basic structure of the Indian Constitution is a legal principle that refers to the fundamental nature of the Constitution and its basic structure. It is a legal principle that is used to interpret and apply the Constitution. The doctrine is based on the idea that the Constitution is a living document that is not static and does not have a fixed form. It is a reflection of the changing needs and aspirations of the people of India. The doctrine is used to interpret and apply the Constitution in various legal contexts.",,
+legal_counsel-3,legal_counsel,int8,"What are the essential elements of a valid contract under the Indian Contract Act, 1872?","
+The essential elements of a valid contract under the Indian Contract Act, 1872 are:
+
+1. The existence of a contract between two or more persons.
+
+2. The consent of both parties to the contract.
+
+3. The existence of a lawful object to be achieved by the contract.
+
+4. The reasonable value of the contract.
+
+5. The absence of any agreement between the parties that is contrary to the contract.
+
+6. The absence of any agreement between the parties that is contrary to the contract.
+
+7. The absence of any",,
