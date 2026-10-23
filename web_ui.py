@@ -79,55 +79,86 @@ def force_quantize(m):
 force_quantize(model)
 model.eval()
 
-print("Multi-Persona Quantized Model ready! Memory Footprint: ~0.64 GB")
+print("Multi-Persona Quantized Model ready! Memory Footprint: ~1.79 GB")
+
+import threading
+
+# Add a global lock to prevent concurrency adapter collisions
+generation_lock = threading.Lock()
 
 # 4. Dynamic Router & Generation Function
-def generate_text(prompt, persona, max_tokens, temperature):
-    if persona == "Software Engineer":
-        model.set_adapter("software_engineer")
-        formatted_prompt = f"Instruction: {prompt.strip()}\n\nInput:\n\nResponse:"
-    elif persona == "Clinical Researcher":
-        model.set_adapter("clinical_researcher")
-        formatted_prompt = f"Instruction: {prompt.strip()}\n\nResponse:"
-    elif persona == "Legal Counsel":
-        model.set_adapter("legal_counsel")
-        formatted_prompt = f"Instruction: {prompt.strip()}\n\nResponse:"
-    else:
-        model.set_adapter("base")
-        formatted_prompt = prompt
+def generate_text(prompt, persona, max_tokens, temperature=None):
+    # Lock the thread so multiple Gradio users don't race the set_adapter method
+    with generation_lock:
+        if persona == "Software Engineer":
+            model.set_adapter("software_engineer")
+            formatted_prompt = f"Instruction: {prompt.strip()}\n\nInput:\n\nResponse:"
+            use_adapters = True
+        elif persona == "Clinical Researcher":
+            model.set_adapter("clinical_researcher")
+            formatted_prompt = f"Instruction: {prompt.strip()}\n\nResponse:"
+            use_adapters = True
+        elif persona == "Legal Counsel":
+            model.set_adapter("legal_counsel")
+            formatted_prompt = f"Instruction: {prompt.strip()}\n\nResponse:"
+            use_adapters = True
+        elif persona == "Base Model":
+            # FIX: Actually disable all adapters for the true Base Model
+            formatted_prompt = f"Instruction: {prompt.strip()}\n\nResponse:"
+            use_adapters = False
 
-    inputs = tokenizer(formatted_prompt, return_tensors="pt").to("cpu")
-    
-    start_time = time.perf_counter()
-    with torch.inference_mode():
-        outputs = model.generate(
-            **inputs, 
-            max_new_tokens=max_tokens, 
-            repetition_penalty=1.15,
-            do_sample=False,
-            pad_token_id=tokenizer.eos_token_id
-        )
-    end_time = time.perf_counter()
-    
-    generation_time = end_time - start_time
-    input_length = inputs.input_ids.shape[1]
-    generated_tokens_count = outputs.shape[1] - input_length
-    tokens_per_second = generated_tokens_count / max(generation_time, 1e-5)
-    
-    raw_output = tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=False)
-    
-    if "Response:" in raw_output:
-        final_text = raw_output.split("Response:")[-1].strip()
-    else:
-        final_text = raw_output
+        inputs = tokenizer(formatted_prompt, return_tensors="pt").to("cpu")
         
-    metrics = f"\n\n[Telemetry: {generation_time:.2f}s total | {tokens_per_second:.2f} tokens/sec | {generated_tokens_count} tokens]"
-    return final_text + metrics
+        start_time = time.perf_counter()
+        
+        
+# Determine if we should generate with or without PEFT adapters active
+        with torch.inference_mode():
+            if use_adapters:
+                outputs = model.generate(
+                    **inputs, 
+                    max_new_tokens=max_tokens, 
+                    repetition_penalty=1.0,      # Synced to eval
+                    no_repeat_ngram_size=0,      # Synced to eval
+                    do_sample=False,
+                    pad_token_id=tokenizer.eos_token_id
+                )
+            else:
+                with model.disable_adapter():
+                    outputs = model.generate(
+                        **inputs, 
+                        max_new_tokens=max_tokens, 
+                        repetition_penalty=1.0,      # Synced to eval
+                        no_repeat_ngram_size=0,      # Synced to eval
+                        do_sample=False,
+                        pad_token_id=tokenizer.eos_token_id
+                    )
+        end_time = time.perf_counter()
+        
+        generation_time = end_time - start_time
+        input_length = inputs.input_ids.shape[1]
+        generated_tokens_count = outputs.shape[1] - input_length
+        tokens_per_second = generated_tokens_count / max(generation_time, 1e-5)
+        
+        # FIX: Remove the destructive BPE tokenizer spaces
+        raw_output = tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=False)
+        
+        # FIX: Robust slicing based on character length of the prompt, avoiding the "Response:" split bug
+        final_text = raw_output[len(formatted_prompt):].strip()
+            
+        metrics = f"\n\n[Telemetry: {generation_time:.2f}s total | {tokens_per_second:.2f} tokens/sec | {generated_tokens_count} tokens]"
+        return final_text + metrics
 
 # 5. Gradio Interface with Persona Selector
 with gr.Blocks() as demo:
     gr.Markdown("# 🐍 Mamba-1.4B Multi-Persona Assistant")
-    gr.Markdown("Dynamic LoRA adapter hot-swapping running on CPU (Surgical Per-Channel Int8 Quantization).")
+    # FIX: Accurate architectural description without the unverified footprint claim
+    gr.Markdown("Dynamic LoRA adapter hot-swapping running on CPU (Layer-Ablated Int8 Quantization).")
+    
+    # FIX: Legal and Medical Disclaimer
+    gr.HTML("<div style='background-color: #ffcccc; padding: 10px; border-radius: 5px; color: #900; font-size: 12px; margin-bottom: 15px;'>"
+            "<strong>WARNING:</strong> Clinical and Legal outputs are generated by an experimental AI. They are NOT professional medical or legal advice. "
+            "Do not use for diagnostic purposes or legal compliance.</div>")
     
     with gr.Row():
         with gr.Column(scale=1):
@@ -141,16 +172,12 @@ with gr.Blocks() as demo:
                 label="Task / Instruction", 
                 placeholder="e.g., What are the essential legal grounds required to file a PIL under Article 32?"
             )
-            
-            # Removed the phantom Temperature slider, set default to 120
             max_tokens_slider = gr.Slider(minimum=20, maximum=300, value=120, step=10, label="Max New Tokens")
-            
             submit_btn = gr.Button("Generate Response", variant="primary")
             
         with gr.Column(scale=1):
             output_text = gr.Textbox(lines=14, label="Persona Output", interactive=False)
             
-    # Removed temp_slider from inputs
     submit_btn.click(
         fn=lambda p, pers, tokens: generate_text(p, pers, tokens, None), 
         inputs=[prompt_input, persona_dropdown, max_tokens_slider], 
